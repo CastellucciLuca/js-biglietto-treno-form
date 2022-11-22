@@ -7,16 +7,29 @@
     <title>Train Ticket</title>
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
+    <!--ROBOTO FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <form>
+    <main class="flex-center">
+        <section id="tickets" class="flex-center flex-column">
             <h1>Prezzo biglietto treno</h1>
-            <input type="number" name="" id="kilometres" placeholder="Chilometri">
-            <input type="number" name="" id="age" placeholder="Età">
-            <button id="invia">Invia</button>
+            <div class="form-box">
+                <div class="form">
+                    <label for="kilometres" class="d-block">Inserisci i chilometri che devi percorrere</label>
+                    <input type="number" name="" id="kilometres" placeholder="Chilometri">
+                </div>
+
+                <div class="form">
+                    <label for="age" class="d-block">Inserisci la tua età</label>
+                    <input type="number" name="" id="age" placeholder="Età">
+                </div>
+            </div>
+                <button id="invia">Invia</button>
             <h2>Il prezzo del biglietto è di: <span id="price"></span>&euro;</h2>
-        </form>
+        </section>
     </main>
 
     <!--JAVASCRIPT-->
