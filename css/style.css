@@ -41,6 +41,16 @@ div.form-box label{
 div.form{
     margin-bottom: 3rem;
 }
+div.form input{
+    height: 2rem;
+    width: 100%;
+}
+section#tickets{
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+    padding: 2.5rem;
+    border-radius: 1rem;
+}
 /*BTN*/
 .btn{
     padding: .5rem 2.5rem;
